@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header p {
+  color: #94a3b8;
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.trending {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.trending h2 {
+  margin-bottom: 10px;
+}
+
+.trending ul {
+  list-style: none;
+  padding: 0;
+}
+
+.trending li {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #334155;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 18px;
+  border-radius: 12px;
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.desc {
+  color: #cbd5f5;
+  font-size: 14px;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  background: #334155;
+  padding: 4px 8px;
+  margin-right: 6px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.tag.positive {
+  background: #16a34a;
+}
+
+.tag.negative {
+  background: #dc2626;
+}
+
+.players {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #38bdf8;
+}
